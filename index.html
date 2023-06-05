@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="icon" href="https://emojiapi.dev/api/v1/1f923.svg">
     <title>Chuck Norris Joke Generator</title>
-    <nav>
-        <p id="logo"><a href="index.html">&#128514;</a></p>
+    
+</head>
+<body>
+    <header>
+        <nav>
+        <p id="logo"><a href="index.html">&#128514;CHUCK NORRIS JOKES</a></p>
         <div id="menu">
-            <a href="" target="_blank" rel="noopener noreferrer" class="active">Jokes</a>
             <a href="https://github.com/OrvilleMckellop/Chuck-Norris-jokes.git" target="_blank" rel="noopener noreferrer" id="github">GitHub</a>
         </div>
     </nav>
-</head>
-<body>
     <h1 id="joke-title">Chuck Norris Joke Generator</h1>
+    </header>
+    
     <main id="joke-container">
     <div id="card">
         <p id="card-emoji">&#128514;</p>
         <p id="card-text">"Want To hear a Joke?"</p>
-        <button id="card-button">Get a Random Joke</button>
+        <button id="card-button" onclick="getJoke()">Get a Random Joke</button>
     </div>
     </main>
     <script src="main.js"></script>

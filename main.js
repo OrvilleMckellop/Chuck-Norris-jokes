@@ -1,9 +1,7 @@
 
 const cardText = document.getElementById("card-text");
-const cardBtn = document.getElementById("card-button");
 const emojiCharacter = document.getElementById("card-emoji");
 
-cardBtn.addEventListener("click", getJoke);
 
 //generate random number for emoji
 function getRandom(min,max){
