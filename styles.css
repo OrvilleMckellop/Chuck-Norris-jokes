@@ -1,0 +1,115 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+body{
+  background-color: goldenrod;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #111111;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#menu{
+  padding: 0 0 0 70%;
+}
+a{
+  text-decoration: none;
+  padding: 15px;
+  color: goldenrod;
+}
+a:hover{
+  color: ghostwhite;
+}
+
+.active{
+  color: ghostwhite;
+}
+.active:hover{
+  color: goldenrod;
+}
+
+#logo{
+  padding: 2rem;
+  display: block;
+  font-size: 250%;
+  color: ghostwhite;
+}
+
+
+#github{
+  background-color: goldenrod;
+  padding: 10px;
+  color: #111111;
+  border-radius: 1rem;
+}
+
+#github:hover{
+  color: ghostwhite;
+  border: ghostwhite solid 2px;
+}
+
+#joke-title{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#joke-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#card{
+  background-color: #111111;
+  width: 300px;
+  height: inherit;
+  border-radius: 1rem;
+  padding: 20px;
+  box-shadow: 28px 9px 26px -6px rgba(0, 0, 0, 0.5);
+
+}
+#card-text{
+  color: whitesmoke;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  word-wrap: break-word;
+  
+}
+#card-emoji{
+  padding: 2rem;
+  display: block;
+  font-size: 100px;
+  text-align: center;
+  margin: auto;
+  color: ghostwhite;
+}
+
+#card-button{
+  background-color: goldenrod;
+  font-weight: bold;
+  font-size: large;
+  width: 80%;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+#card-button:hover{
+  background-color: whitesmoke;
+  color: goldenrod;
+}
